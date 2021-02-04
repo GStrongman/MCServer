@@ -1,0 +1,21 @@
+users:
+  bdb08452-1e74-4460-9618-5e1cadf0fbda:
+    lastname: Derpette
+    group: Moderator
+    subgroups: []
+    permissions: []
+  ElgarL:
+    group: Default
+    subgroups: []
+    permissions:
+    - groupmanager.noofflineperms
+  KHobbits:
+    group: Default
+    subgroups: []
+    permissions:
+    - groupmanager.noofflineperms
+  snowleo:
+    group: Default
+    subgroups: []
+    permissions:
+    - groupmanager.noofflineperms

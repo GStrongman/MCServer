@@ -1,0 +1,313 @@
+[19:32:57] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[19:32:57] [main/INFO]: Reloading ResourceManager: Default, bukkit
+[19:32:57] [Worker-Main-6/INFO]: Loaded 7 recipes
+[19:32:58] [Server thread/INFO]: Starting minecraft server version 1.16.5
+[19:32:58] [Server thread/INFO]: Loading properties
+[19:32:58] [Server thread/INFO]: This server is running Paper version git-Paper-445 (MC: 1.16.5) (Implementing API version 1.16.5-R0.1-SNAPSHOT)
+[19:32:58] [Server thread/INFO]: Debug logging is disabled
+[19:32:58] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[19:32:58] [Server thread/INFO]: Using 4 threads for Netty based IO
+[19:32:58] [Server thread/INFO]: Default game type: SURVIVAL
+[19:32:58] [Server thread/INFO]: Generating keypair
+[19:32:58] [Server thread/INFO]: Starting Minecraft server on *:25565
+[19:32:58] [Server thread/INFO]: Using default channel type
+[19:32:59] [Server thread/ERROR]: Could not load 'plugins\paper-1.16.5-445.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidDescriptionException: Invalid plugin.yml
+	at org.bukkit.plugin.java.JavaPluginLoader.getPluginDescription(JavaPluginLoader.java:162) ~[patched_1.16.5.jar:git-Paper-445]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:148) ~[patched_1.16.5.jar:git-Paper-445]
+	at org.bukkit.craftbukkit.v1_16_R3.CraftServer.loadPlugins(CraftServer.java:389) ~[patched_1.16.5.jar:git-Paper-445]
+	at net.minecraft.server.v1_16_R3.DedicatedServer.init(DedicatedServer.java:206) ~[patched_1.16.5.jar:git-Paper-445]
+	at net.minecraft.server.v1_16_R3.MinecraftServer.w(MinecraftServer.java:935) ~[patched_1.16.5.jar:git-Paper-445]
+	at net.minecraft.server.v1_16_R3.MinecraftServer.lambda$a$0(MinecraftServer.java:173) ~[patched_1.16.5.jar:git-Paper-445]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_221]
+Caused by: java.io.FileNotFoundException: Jar does not contain plugin.yml
+	... 7 more
+[19:33:00] [Server thread/INFO]: [CoreProtect] Loading CoreProtect v19.4
+[19:33:00] [Server thread/INFO]: [LimitPillagers] Loading LimitPillagers v2.14.0
+[19:33:00] [Server thread/INFO]: [Harbor] Loading Harbor v1.6.3
+[19:33:00] [Server thread/INFO]: [Vault] Loading Vault v1.7.3-b131
+[19:33:00] [Server thread/INFO]: [GroupManager] Loading GroupManager v2.9 (Phoenix)
+[19:33:00] [Server thread/INFO]: [VillagerOptimiser] Loading VillagerOptimiser v1.1.5
+[19:33:00] [Server thread/INFO]: [Towny] Loading Towny v0.96.7.0
+[19:33:00] [Server thread/INFO]: [EntityTrackerFixer] Loading EntityTrackerFixer v1.3.3
+[19:33:00] [Server thread/INFO]: [Jobs] Loading Jobs v4.17.0
+[19:33:00] [Server thread/INFO]: [TownyChat] Loading TownyChat v0.86
+[19:33:00] [Server thread/INFO]: [ChestShop] Loading ChestShop v3.11 (build 213)
+[19:33:00] [Server thread/INFO]: [TheNewEconomy] Loading TheNewEconomy v0.1.1.12
+[19:33:01] [Server thread/INFO]: [TheNewEconomy] Loading The New Economy with Java Version: 1.8.0_221
+[19:33:01] [Server thread/INFO]: [TheNewEconomy] Hooked into Vault
+[19:33:01] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[19:33:01] [Server thread/INFO]: [LimitPillagers] Enabling LimitPillagers v2.14.0
+[19:33:01] [Server thread/INFO]: [LimitPillagers] Registering commands...
+[19:33:01] [Server thread/INFO]: [LimitPillagers] Registering listeners...
+[19:33:01] [Server thread/INFO]: [LimitPillagers] Loading config.yml...
+[19:33:01] [Server thread/INFO]: [LimitPillagers] Registering metrics...
+[19:33:01] [Server thread/INFO]: [LimitPillagers] LimitPillagers v2.14.0 Enabled in 24 ms
+[19:33:01] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[19:33:02] [Server thread/WARN]: [Vault] Loaded class org.anjocaido.groupmanager.GroupManager from GroupManager v2.9 (Phoenix) which is not a depend, softdepend or loadbefore of this plugin.
+[19:33:02] [Server thread/INFO]: [Vault] [Permission] GroupManager found: Waiting
+[19:33:02] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[19:33:02] [Server thread/INFO]: [Vault] [Chat] GroupManager found: Waiting
+[19:33:02] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[19:33:02] [Server thread/INFO]: Preparing level "world"
+[19:33:02] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[19:33:02] [Server thread/INFO]: Loaded 0 spawn chunks for world world
+[19:33:02] [Server thread/INFO]: Preparing spawn area: 0%
+[19:33:02] [Server thread/INFO]: Time elapsed: 233 ms
+[19:33:02] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[19:33:02] [Server thread/INFO]: Loaded 0 spawn chunks for world world_nether
+[19:33:02] [Server thread/INFO]: Time elapsed: 123 ms
+[19:33:02] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[19:33:02] [Server thread/INFO]: Loaded 0 spawn chunks for world world_the_end
+[19:33:02] [Server thread/INFO]: Time elapsed: 135 ms
+[19:33:02] [Server thread/INFO]: [CoreProtect] Enabling CoreProtect v19.4
+[19:33:02] [Server thread/INFO]: [CoreProtect] CoreProtect has been successfully enabled!
+[19:33:02] [Server thread/INFO]: [CoreProtect] Using SQLite for data storage.
+[19:33:02] [Server thread/INFO]: --------------------
+[19:33:02] [Server thread/INFO]: [CoreProtect] Enjoy CoreProtect? Join our Discord!
+[19:33:02] [Server thread/INFO]: [CoreProtect] Discord: www.coreprotect.net/discord/
+[19:33:02] [Server thread/INFO]: --------------------
+[19:33:02] [Server thread/INFO]: [Harbor] Enabling Harbor v1.6.3
+[19:33:02] [Server thread/INFO]: [Harbor] Essentials not present- registering fallback AFK detection system.
+[19:33:02] [Server thread/INFO]: [GroupManager] Enabling GroupManager v2.9 (Phoenix)
+[19:33:02] [Server thread/INFO]: [GroupManager] World Found: world
+[19:33:02] [Server thread/INFO]: [GroupManager] Superperms support enabled.
+[19:33:03] [Server thread/INFO]: [GroupManager] Scheduled Data Saving is set for every 10 minutes!
+[19:33:03] [Server thread/INFO]: [GroupManager] Backups will be retained for 24 hours!
+[19:33:03] [Server thread/INFO]: [GroupManager] version 2.9 (Phoenix) is enabled!
+[19:33:03] [Server thread/INFO]: [Vault][Permission] GroupManager hooked.
+[19:33:03] [Server thread/INFO]: [Vault] [Vault][Chat] GroupManager - Chat hooked.
+[19:33:03] [Server thread/INFO]: [VillagerOptimiser] Enabling VillagerOptimiser v1.1.5
+[19:33:03] [Server thread/INFO]: [VillagerOptimiser] Loading config.yml...
+[19:33:03] [Server thread/INFO]: [VillagerOptimiser] Successfully loaded config.yml.
+[19:33:03] [Server thread/INFO]: [VillagerOptimiser] Successfully enabled.
+[19:33:03] [Server thread/INFO]: [Towny] Enabling Towny v0.96.7.0
+[19:33:03] [Server thread/INFO]: ====================      Towny      ========================
+[19:33:03] [Server thread/INFO]: [Towny] Lang: english.yml v0.97 loaded.
+[19:33:03] [Server thread/INFO]: [Towny] Database: [Load] flatfile [Save] flatfile
+[19:33:03] [Server thread/INFO]: [Towny] Database: Loaded in 29ms.
+[19:33:03] [Server thread/INFO]: [Towny] Database: 100% of residents have stored UUIDs.
+[19:33:03] [ForkJoinPool.commonPool-worker-1/INFO]: [Towny] Cleaning up old backups...
+[19:33:03] [Server thread/INFO]: [Towny] Searching for third-party plugins...
+[19:33:03] [ForkJoinPool.commonPool-worker-1/INFO]: [Towny] Successfully cleaned backups.
+[19:33:03] [ForkJoinPool.commonPool-worker-1/INFO]: [Towny] Making backup...
+[19:33:03] [Server thread/INFO]: [Towny] Plugins found: 
+[19:33:03] [Server thread/INFO]:   Permissions: TownyPerms, GroupManager v2.9 (Phoenix)
+[19:33:03] [Server thread/INFO]:   Economy: TheNewEconomy via Vault
+[19:33:03] [Server thread/INFO]:   Add-ons: TownyChat v0.86
+[19:33:03] [Server thread/INFO]: [Towny] Time until a New Day: 16 hours, 26 minutes, 57 seconds
+[19:33:03] [ForkJoinPool.commonPool-worker-1/INFO]: [Towny] Towny flatfiles and settings successfully backed up.
+[19:33:03] [Server thread/INFO]: =============================================================
+[19:33:03] [Server thread/INFO]: [Towny] Version: 0.96.7.0 - Plugin Enabled
+[19:33:03] [Server thread/INFO]: =============================================================
+[19:33:03] [Server thread/INFO]: [EntityTrackerFixer] Enabling EntityTrackerFixer v1.3.3
+[19:33:03] [Server thread/INFO]: [EntityTrackerFixer] Setting untrack ticks to: 400
+[19:33:03] [Server thread/INFO]: [EntityTrackerFixer] Setting check frequency to: 40
+[19:33:03] [Server thread/INFO]: [EntityTrackerFixer] Setting tracking range to: 30
+[19:33:03] [Server thread/INFO]: [EntityTrackerFixer] Setting minimun TPS to: 19.5
+[19:33:03] [Server thread/INFO]: [EntityTrackerFixer] Setting enable on all worlds to: false
+[19:33:03] [Server thread/INFO]: [EntityTrackerFixer] Adding world: world
+[19:33:03] [Server thread/INFO]: [EntityTrackerFixer] Adding world: world_nether
+[19:33:03] [Server thread/INFO]: [EntityTrackerFixer] Adding world: world_the_end
+[19:33:03] [Server thread/INFO]: [EntityTrackerFixer] Setting log to console to: true
+[19:33:03] [Server thread/INFO]: [EntityTrackerFixer] Setting disable tick for untracked to: true
+[19:33:03] [Server thread/INFO]: [Jobs] Enabling Jobs v4.17.0
+[19:33:03] [Server thread/WARN]: Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[19:33:07] [Server thread/INFO]: [Jobs] Loaded 8 titles!
+[19:33:07] [Server thread/INFO]: [Jobs] Loaded 75 protected blocks timers!
+[19:33:07] [Server thread/INFO]: [Jobs] Loaded 1076 custom item names!
+[19:33:07] [Server thread/INFO]: [Jobs] Loaded 72 custom entity names!
+[19:33:07] [Server thread/INFO]: [Jobs] Loaded 2 custom MythicMobs names!
+[19:33:07] [Server thread/INFO]: [Jobs] Loaded 38 custom enchant names!
+[19:33:07] [Server thread/INFO]: [Jobs] Loaded 16 custom color names!
+[19:33:07] [Server thread/INFO]: [Jobs] Loaded 1 quests for Woodcutter
+[19:33:07] [Server thread/INFO]: [Jobs] Loaded 1 quests for Explorer
+[19:33:07] [Server thread/INFO]: [Jobs] Loaded 1 quests for Fisherman
+[19:33:07] [Server thread/INFO]: [Jobs] Loaded 1 quests for Brewer
+[19:33:07] [Server thread/INFO]: [Jobs] Loaded 1 quests for Hunter
+[19:33:07] [Server thread/INFO]: [Jobs] Loaded 1 quests for Digger
+[19:33:07] [Server thread/INFO]: [Jobs] Loaded 1 quests for Builder
+[19:33:07] [Server thread/INFO]: [Jobs] Loaded 1 quests for Enchanter
+[19:33:07] [Server thread/INFO]: [Jobs] Loaded 1 quests for Miner
+[19:33:07] [Server thread/INFO]: [Jobs] Loaded 1 quests for Farmer
+[19:33:07] [Server thread/INFO]: [Jobs] Loaded 10 jobs!
+[19:33:07] [Jobs-DatabaseSaveTask/INFO]: [Jobs] Started database save task.
+[19:33:07] [Jobs-BufferedPaymentThread/INFO]: [Jobs] Started buffered payment thread.
+[19:33:07] [ForkJoinPool.commonPool-worker-1/INFO]: [Jobs] Preloaded 1 players data in 0.0
+[19:33:07] [Server thread/INFO]: [Jobs] Loading explorer data
+[19:33:07] [Server thread/INFO]: [Jobs] Loaded explorer data (28)
+[19:33:07] [Server thread/INFO]: [Jobs] Plugin has been enabled successfully.
+[19:33:07] [Server thread/INFO]: [TownyChat] Enabling TownyChat v0.86
+[19:33:07] [Server thread/INFO]: [TownyChat] Default Channel set to general
+[19:33:07] [Server thread/INFO]: [TownyChat] Towny version 0.96.7.0 found.
+[19:33:07] [Server thread/INFO]: [ChestShop] Enabling ChestShop v3.11 (build 213)
+[19:33:07] [Server thread/INFO]: [ChestShop] Found locale en!
+[19:33:08] [Server thread/WARN]: [ChestShop] Server economy account setting '' doesn't seem to be the name of a known player! Please log in at least once in order for the server economy account to work.
+[19:33:08] [Server thread/INFO]: [ChestShop] Using TheNewEconomy as the Economy provider now.
+[19:33:08] [Server thread/INFO]: [ChestShop] Vault loaded!
+[19:33:08] [Server thread/INFO]: [ChestShop] Using Paper's BlockDestroyEvent instead of the BlockPhysicsEvent!
+[19:33:08] [Server thread/INFO]: [ChestShop] Auto-updater is disabled. If you want the plugin to automatically download new releases then set 'TURN_OFF_UPDATES' to 'false' in your config.yml!
+[19:33:08] [Server thread/INFO]: [TheNewEconomy] Enabling TheNewEconomy v0.1.1.12
+[19:33:11] [Server thread/INFO]: Loading Configurations.
+[19:33:11] [Server thread/INFO]: Initializing Configurations.
+[19:33:11] [Server thread/INFO]: Initialized config.yml
+[19:33:11] [Server thread/INFO]: Initialized commands.yml
+[19:33:11] [Server thread/INFO]: Initialized messages.yml
+[19:33:11] [Server thread/INFO]: Initialized players.yml
+[19:33:11] [Server thread/INFO]: Initialized worlds.yml
+[19:33:11] [Server thread/INFO]: [net.tnemc.libs.com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Starting...
+[19:33:11] [Server thread/INFO]: [net.tnemc.libs.com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Start completed.
+[19:33:11] [Server thread/INFO]: Updating tables, please hold.
+[19:33:11] [Server thread/INFO]: Finished updating tables.
+[19:33:11] [Server thread/INFO]: [TheNewEconomy] Finished loading data!
+[19:33:11] [Server thread/INFO]: [TheNewEconomy] Finished loading data!
+[19:33:11] [Server thread/INFO]: [TheNewEconomy] The New Economy has been enabled!
+[19:33:11] [Server thread/INFO]: Running delayed init tasks
+[19:33:11] [Craft Scheduler Thread - 2/INFO]: [LimitPillagers] Checking for updates...
+[19:33:11] [Server thread/INFO]: [Jobs] Successfully linked with Vault.
+[19:33:11] [Server thread/INFO]: [GroupManager] Bukkit Permissions Updated!
+[19:33:11] [Server thread/INFO]: [TownyChat] -******* TownyChat enabled *******-
+[19:33:11] [Server thread/INFO]: Done (13.260s)! For help, type "help"
+[19:33:11] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] ************************************************************
+[19:33:11] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * WARNING - YOU ARE RUNNING AN OUTDATED VERSION OF JAVA.
+[19:33:11] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * PAPER WILL STOP BEING COMPATIBLE WITH THIS VERSION OF
+[19:33:11] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * JAVA WHEN MINECRAFT 1.17 IS RELEASED.
+[19:33:11] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] *
+[19:33:11] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * Please update the version of Java you use to run Paper
+[19:33:11] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * to at least Java 11. When Paper for Minecraft 1.17 is
+[19:33:11] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * released support for versions of Java before 11 will
+[19:33:11] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * be dropped.
+[19:33:11] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] *
+[19:33:11] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * Current Java version: 1.8.0_221
+[19:33:11] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] *
+[19:33:11] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * Check this forum post for more information: 
+[19:33:11] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] *   https://papermc.io/java11
+[19:33:11] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] ************************************************************
+[19:33:11] [Server thread/INFO]: Timings Reset
+[19:33:11] [Craft Scheduler Thread - 2/INFO]: [LimitPillagers] There is an update available ( 2.14.0 > 3.0.0 ), go download it at https://www.spigotmc.org/resources/69733
+[19:33:11] [Craft Scheduler Thread - 2/INFO]: [LimitPillagers] Download it here: https://www.spigotmc.org/resources/69733/
+[19:33:11] [Craft Scheduler Thread - 2/INFO]: [Vault] Checking for Updates ... 
+[19:33:12] [Craft Scheduler Thread - 7/INFO]: [GroupManager] There was an issue parsing the version string.
+[19:33:12] [Craft Scheduler Thread - 7/INFO]: [GroupManager] No new version available
+[19:33:13] [Craft Scheduler Thread - 2/INFO]: [Vault] No new version available
+[19:33:14] [Craft Scheduler Thread - 5/INFO]: Initialized items.yml
+[19:33:23] [User Authenticator #1/INFO]: UUID of player Derpette is bdb08452-1e74-4460-9618-5e1cadf0fbda
+[19:33:23] [Server thread/INFO]: Derpette joined the game
+[19:33:23] [Server thread/INFO]: Derpette[/127.0.0.1:51310] logged in with entity id 274 at ([world]-239.35729098286163, 79.62605963924413, 224.11349243504935)
+[19:34:56] [Server thread/INFO]: Made Zykinii a server operator
+[19:36:45] [Server thread/INFO]: Derpette issued server command: /towny new
+[19:36:47] [Server thread/INFO]: Derpette issued server command: /towny create
+[19:36:52] [Server thread/INFO]: Derpette issued server command: /town create poop
+[19:37:03] [Craft Scheduler Thread - 14/INFO]: Successfully gave Derpette $5,000.00.
+[19:37:06] [Server thread/INFO]: Derpette issued server command: /town create poop
+[19:37:08] [Server thread/INFO]: Derpette issued server command: /confirm
+[19:37:08] [Server thread/INFO]: [com.palmergames.bukkit.towny.Towny] Congratulations on creating your town! Your town will pay a daily upkeep which is currently valued at $10.00. You can deposit money in your town's bank using '/t deposit #'. Without money to pay the upkeep your town will be deleted. You can see your costs anytime using /towny prices. Next daily upkeep taken in 16 hours, 22 minutes, 52 seconds.
+[19:37:08] [Server thread/INFO]: [com.palmergames.bukkit.towny.Towny] [Global Message] Derpette created a new town called poop
+[19:37:17] [Server thread/INFO]: Derpette issued server command: /t
+[19:37:27] [Server thread/INFO]: Derpette issued server command: /t delete
+[19:37:29] [Server thread/INFO]: Derpette issued server command: /confirm
+[19:37:29] [Server thread/INFO]: [com.palmergames.bukkit.towny.Towny] [Global Message] The town of poop fell into ruin!
+[19:37:33] [Server thread/INFO]: Derpette issued server command: /jobs browse
+[19:38:37] [Craft Scheduler Thread - 14/INFO]: [ChestShop] Derpette created a shop - 1 Diamond - B 1000 - at [world] -218, 63, 259
+[19:39:21] [Craft Scheduler Thread - 14/INFO]: [ChestShop] Derpette created a shop - 1 Dirt - B 2 : 1 S - at [world] -219, 63, 257
+[19:39:49] [Craft Scheduler Thread - 19/INFO]: [ChestShop] Derpette created a shop - 1 Dirt - B 2:1S - at [world] -218, 63, 257
+[19:40:09] [Server thread/INFO]: Derpette issued server command: /co l
+[19:40:11] [Server thread/INFO]: Derpette issued server command: /co i
+[19:40:21] [Server thread/INFO]: Derpette issued server command: /stop
+[19:40:23] [Server thread/INFO]: Derpette issued server command: /plugins
+[19:40:30] [Server thread/INFO]: Derpette issued server command: /help
+[19:40:35] [Server thread/INFO]: Derpette issued server command: /help 1
+[19:40:36] [Server thread/INFO]: Derpette issued server command: /help 2
+[19:40:39] [Server thread/INFO]: Derpette issued server command: /help 3
+[19:40:41] [Server thread/INFO]: Derpette issued server command: /account
+[19:40:42] [Server thread/INFO]: Derpette issued server command: /bal
+[19:40:56] [Server thread/INFO]: Derpette issued server command: /balother
+[19:41:00] [Server thread/INFO]: Derpette issued server command: /balother zykinii
+[19:41:06] [Server thread/INFO]: Derpette issued server command: /money zykinii
+[19:41:13] [Server thread/INFO]: Derpette issued server command: /channel
+[19:41:16] [Server thread/INFO]: Derpette issued server command: /channel join g
+[19:41:17] [Server thread/INFO]: Derpette issued server command: /channel join t
+[19:41:20] [Server thread/INFO]: Derpette issued server command: /channel join town
+[19:41:24] [Server thread/INFO]: Derpette issued server command: /channel join /t
+[19:41:25] [Server thread/INFO]: Derpette issued server command: /t
+[19:41:30] [Server thread/INFO]: Derpette issued server command: /channel join mod
+[19:41:38] [Server thread/INFO]: Derpette issued server command: /help 4
+[19:41:45] [Server thread/INFO]: Derpette issued server command: /help 5
+[19:41:49] [Server thread/INFO]: Derpette issued server command: /help 6
+[19:41:56] [Server thread/INFO]: Derpette issued server command: /help 7
+[19:41:59] [Server thread/INFO]: Derpette issued server command: /help 8
+[19:42:00] [Server thread/INFO]: Derpette issued server command: /help 9
+[19:42:04] [Server thread/INFO]: Derpette issued server command: /townyadmin
+[19:42:23] [Server thread/INFO]: Couldn't retrieve your world. Default world 'world' selected.
+[19:42:23] [Server thread/INFO]: 'mod' group does not exist!
+[19:42:23] [Server thread/INFO]: /manuadd <player> <group> | optional [world]
+[19:42:29] [Server thread/INFO]: You changed player 'Derpette' group to 'Moderator' in world 'world'.
+[19:42:33] [Server thread/INFO]: Derpette issued server command: /co i
+[19:42:34] [Server thread/INFO]: Derpette issued server command: /co i
+[19:42:35] [Server thread/INFO]: Derpette issued server command: /co l
+[19:42:46] [Server thread/INFO]: Derpette issued server command: /co rollback t:10m r:10
+[19:42:50] [Server thread/INFO]: Derpette issued server command: /co rollback t:10m r:10
+[19:42:58] [Server thread/INFO]: Derpette issued server command: /ban
+[19:43:00] [Server thread/INFO]: Derpette issued server command: /ban poopy
+[19:43:01] [Server thread/INFO]: [Derpette: Banned Poopy: Banned by an operator.]
+[19:43:03] [pool-9-thread-1/INFO]: [GroupManager] Data files refreshed.
+[19:43:06] [Server thread/INFO]: Derpette issued server command: /unban poopy
+[19:43:19] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[19:43:27] [Server thread/INFO]: Derpette issued server command: /pardon poopy
+[19:43:27] [Server thread/INFO]: [Derpette: Unbanned Poopy]
+[19:43:53] [Server thread/INFO]: Derpette issued server command: /stop
+[19:43:55] [Server thread/INFO]: Derpette issued server command: /restart
+[19:44:06] [Server thread/INFO]: Made Derpette a server operator
+[19:44:09] [Server thread/INFO]: Made Zykinii no longer a server operator
+[19:44:10] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[19:44:13] [Server thread/INFO]: Made list a server operator
+[19:44:17] [Server thread/INFO]: Made list no longer a server operator
+[19:44:19] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[19:44:55] [Server thread/INFO]: Stopping the server
+[19:44:55] [Server thread/INFO]: Stopping server
+[19:44:55] [Server thread/INFO]: [TheNewEconomy] Disabling TheNewEconomy v0.1.1.12
+[19:44:55] [Server thread/INFO]: [net.tnemc.libs.com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown initiated...
+[19:44:55] [Server thread/INFO]: [net.tnemc.libs.com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown completed.
+[19:44:55] [Server thread/INFO]: [TheNewEconomy] The New Economy has been disabled!
+[19:44:55] [Server thread/INFO]: [ChestShop] Disabling ChestShop v3.11 (build 213)
+[19:44:55] [Server thread/INFO]: [TownyChat] Disabling TownyChat v0.86
+[19:44:55] [Server thread/INFO]: [Jobs] Disabling Jobs v4.17.0
+[19:44:55] [Jobs-BufferedPaymentThread/INFO]: [Jobs] Buffered payment thread shutdown.
+[19:44:55] [Jobs-DatabaseSaveTask/INFO]: [Jobs] Database save task shutdown!
+[19:44:55] [Server thread/INFO]: [Jobs] Plugin has been disabled successfully.
+[19:44:55] [Server thread/INFO]: [EntityTrackerFixer] Disabling EntityTrackerFixer v1.3.3
+[19:44:55] [Server thread/INFO]: [Towny] Disabling Towny v0.96.7.0
+[19:44:55] [Server thread/INFO]: ==============================================================
+[19:44:55] [Server thread/INFO]: [Towny] Finishing File IO Tasks...
+[19:44:55] [Server thread/INFO]: [Towny] Version: 0.96.7.0 - Plugin Disabled
+[19:44:55] [Server thread/INFO]: =============================================================
+[19:44:55] [Server thread/INFO]: [VillagerOptimiser] Disabling VillagerOptimiser v1.1.5
+[19:44:55] [Server thread/INFO]: [GroupManager] Disabling GroupManager v2.9 (Phoenix)
+[19:44:55] [Server thread/INFO]: [Vault][Permission] GroupManager un-hooked.
+[19:44:55] [Server thread/INFO]: [Vault] [Vault][Chat] GroupManager - Chat un-hooked.
+[19:44:55] [Server thread/WARN]: [GroupManager] Scheduled Data Saving is Disabled!
+[19:44:55] [Server thread/INFO]: [GroupManager] version 2.9 (Phoenix) is disabled!
+[19:44:55] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[19:44:55] [Server thread/INFO]: [Harbor] Disabling Harbor v1.6.3
+[19:44:55] [Server thread/INFO]: [LimitPillagers] Disabling LimitPillagers v2.14.0
+[19:44:55] [Server thread/INFO]: [LimitPillagers] I Hope this plugin helped you with Pillager lag! - HexedHero
+[19:44:55] [Server thread/INFO]: [LimitPillagers] LimitPillagers v2.14.0 Disabled in 0 ms
+[19:44:55] [Server thread/INFO]: [CoreProtect] Disabling CoreProtect v19.4
+[19:44:55] [Server thread/INFO]: [CoreProtect] Finishing up data logging. Please wait...
+[19:44:56] [Server thread/INFO]: [CoreProtect] Success! Disabled CoreProtect v19.4
+[19:44:56] [Server thread/INFO]: Saving players
+[19:44:56] [Server thread/INFO]: Derpette lost connection: Server has taken an L, try again later!
+[19:44:56] [Server thread/INFO]: Derpette left the game
+[19:44:56] [Server thread/INFO]: Saving worlds
+[19:44:56] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[19:44:56] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[19:44:56] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[19:44:56] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[19:44:56] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[19:44:56] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[19:44:56] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[19:44:56] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[19:44:56] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[19:44:56] [Server thread/INFO]: Flushing Chunk IO
+[19:44:56] [Server thread/INFO]: Closing Thread Pool
+[19:44:56] [Server thread/INFO]: Closing Server
